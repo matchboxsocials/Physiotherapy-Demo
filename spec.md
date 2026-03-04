@@ -13,16 +13,19 @@ A web app for physiotherapy clinics with two types of users:
 
 ### Doctor can:
 - Log in and see a list of their patients
-- View a patient's exercise plan and progress
-- Add or remove exercises from a patient's plan
+- View a patient's profile, including metrics that track their progression (e.g. exercises completed per week, streak, overall progress %)
+- View and manage a patient's exercise plan
+- Browse the exercise library and add exercises to a patient's plan
 - Message patients
 - Ask Claude to suggest exercises based on a condition (e.g. "torn ACL")
 - Get AI-drafted replies to patient messages
 - Generate a progress summary for any patient
+- View the Patient dashboard to see exactly what the patient sees
 
 ### Patient can:
 - Log in and see their exercise plan
 - Tick off exercises as completed
+- Browse the exercise library to learn about their exercises
 - Message their doctor
 - Ask Claude questions about their exercises
 
@@ -44,7 +47,7 @@ A web app for physiotherapy clinics with two types of users:
 ## Design Guidelines
 
 - **Clean and calm** — white background, soft blues and greens, no clutter
-- **Two clear views** — Doctor dashboard and Patient dashboard, each with a sidebar nav
+- **Separate interfaces** — Doctor and Patient dashboards are distinct. Doctors can view the Patient dashboard (to see what the patient sees). Patients cannot access the Doctor dashboard, which contains sensitive data about other patients
 - **Mobile-friendly** — works on a phone screen
 - **No jargon** — plain English labels everywhere (e.g. "Mark as done", not "Update exercise status")
 
@@ -57,8 +60,8 @@ A web app for physiotherapy clinics with two types of users:
 Build the full interface using hardcoded data. No backend, no API calls yet.
 
 **Deliverables:**
-- Doctor dashboard: patient list, exercise plan view, messaging panel
-- Patient dashboard: exercise checklist, messaging panel
+- Doctor dashboard: patient list, patient profile (with progress metrics), exercise plan view, exercise library, messaging panel
+- Patient dashboard: exercise checklist, exercise library, messaging panel
 - Dummy login (click "Log in as Doctor" or "Log in as Patient")
 - Exercises can be ticked off (state lives in React)
 
