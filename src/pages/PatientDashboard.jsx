@@ -105,7 +105,7 @@ function PatientDashboard({ patientId, onLogout, viewingAsDoctor, onBackToDoctor
         )}
 
         {activeView === 'library' && (
-          <ExerciseLibrary />
+          <ExerciseLibrary role="patient" />
         )}
 
         {activeView === 'messages' && (

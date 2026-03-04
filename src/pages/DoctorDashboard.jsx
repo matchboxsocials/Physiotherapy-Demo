@@ -54,7 +54,7 @@ function DoctorDashboard({ onLogout, onViewAsPatient }) {
       {/* Exercise library — full main area */}
       {activeView === 'library' && (
         <div className="main-content">
-          <ExerciseLibrary />
+          <ExerciseLibrary role="doctor" />
         </div>
       )}
 

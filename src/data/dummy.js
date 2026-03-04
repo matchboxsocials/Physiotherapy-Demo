@@ -12,7 +12,17 @@ export const exercises = [
     reps: 15,
     goal: 'Strengthens the quadriceps without stressing the knee joint',
     safetyNote: 'Stop if you feel sharp knee pain. Keep your core engaged.',
-    imageEmoji: '🦵'
+    imageEmoji: '🦵',
+    gifUrl: 'https://placehold.co/480x240/dbeafe/1d4ed8?text=Straight+Leg+Raise+(GIF)',
+    steps: [
+      'Lie flat on your back on a firm surface.',
+      'Bend your non-affected knee with your foot flat on the floor.',
+      'Keep the other leg straight and tighten your thigh muscle.',
+      'Slowly raise the straight leg to about 45° — level with the bent knee.',
+      'Hold for 2 seconds at the top.',
+      'Lower slowly back to the floor.',
+      'Repeat for the prescribed number of reps, then rest.',
+    ]
   },
   {
     id: 'ex2',
@@ -23,7 +33,16 @@ export const exercises = [
     reps: 20,
     goal: 'Restores range of motion in the knee after injury or surgery',
     safetyNote: 'Do not force beyond a comfortable range. Go slowly.',
-    imageEmoji: '🦶'
+    imageEmoji: '🦶',
+    gifUrl: 'https://placehold.co/480x240/dbeafe/1d4ed8?text=Heel+Slides+(GIF)',
+    steps: [
+      'Lie flat on your back with both legs straight.',
+      'Slowly bend one knee, sliding your heel towards your bottom.',
+      'Slide as far as comfortable — do not force the range.',
+      'Hold for 2 seconds at the end of the range.',
+      'Slowly slide the heel back out to the starting position.',
+      'Repeat for the prescribed number of reps.',
+    ]
   },
   {
     id: 'ex3',
@@ -34,7 +53,17 @@ export const exercises = [
     reps: 15,
     goal: 'Strengthens the hip abductors and glute medius for knee stability',
     safetyNote: 'Keep your hips stacked — do not let your pelvis roll back.',
-    imageEmoji: '🦀'
+    imageEmoji: '🦀',
+    gifUrl: 'https://placehold.co/480x240/dcfce7/15803d?text=Clamshells+(GIF)',
+    steps: [
+      'Lie on your side with your hips stacked and knees bent at 45°.',
+      'Keep your feet together throughout the movement.',
+      'Slowly rotate your top knee upward, like a clamshell opening.',
+      'Lift as high as you can without your hips rolling backwards.',
+      'Hold for 1–2 seconds at the top.',
+      'Lower slowly back to the starting position.',
+      'Complete all reps on one side, then switch.',
+    ]
   },
   {
     id: 'ex4',
@@ -45,7 +74,17 @@ export const exercises = [
     reps: 12,
     goal: 'Strengthens glutes and core, improves hip extension',
     safetyNote: 'Do not arch your lower back excessively at the top.',
-    imageEmoji: '🌉'
+    imageEmoji: '🌉',
+    gifUrl: 'https://placehold.co/480x240/dcfce7/15803d?text=Glute+Bridges+(GIF)',
+    steps: [
+      'Lie on your back with knees bent and feet flat on the floor, hip-width apart.',
+      'Place your arms flat by your sides.',
+      'Press through your heels and squeeze your glutes to lift your hips.',
+      'Lift until your body forms a straight line from knees to shoulders.',
+      'Hold at the top for 2 seconds.',
+      'Lower your hips slowly back to the floor.',
+      'Repeat for the prescribed number of reps.',
+    ]
   },
   {
     id: 'ex5',
@@ -56,7 +95,17 @@ export const exercises = [
     reps: 10,
     goal: 'Increases lumbar mobility and relieves back stiffness',
     safetyNote: 'Keep movements gentle and controlled. Never force the range.',
-    imageEmoji: '🐱'
+    imageEmoji: '🐱',
+    gifUrl: 'https://placehold.co/480x240/fef9c3/854d0e?text=Cat-Cow+Stretch+(GIF)',
+    steps: [
+      'Start on all fours — hands under shoulders, knees under hips.',
+      'Inhale: let your belly drop toward the floor, lift your head and tailbone (Cow).',
+      'Exhale: round your spine toward the ceiling, tuck your chin and tailbone (Cat).',
+      'Move slowly and continuously between the two positions.',
+      'Follow your breath — one full breath cycle per movement.',
+      'Keep your core gently engaged throughout.',
+      'Complete the prescribed number of breath cycles.',
+    ]
   },
   {
     id: 'ex6',
@@ -67,7 +116,17 @@ export const exercises = [
     reps: 10,
     goal: 'Builds core stability and balance without loading the spine',
     safetyNote: 'Keep your back flat — do not let your hips rotate or drop.',
-    imageEmoji: '🐦'
+    imageEmoji: '🐦',
+    gifUrl: 'https://placehold.co/480x240/fef9c3/854d0e?text=Bird+Dog+(GIF)',
+    steps: [
+      'Start on all fours — hands under shoulders, knees under hips.',
+      'Keep your back flat and core gently engaged.',
+      'Simultaneously extend your right arm forward and left leg back.',
+      'Hold for 3 seconds, keeping your hips level — do not let them rotate.',
+      'Return both limbs slowly to the starting position.',
+      'Repeat on the opposite side (left arm, right leg).',
+      'Alternating sides counts as one full rep.',
+    ]
   },
   {
     id: 'ex7',
@@ -78,7 +137,17 @@ export const exercises = [
     reps: 20,
     goal: 'Gently restores shoulder range of motion using gravity, not muscle force',
     safetyNote: 'Keep the circles small to start. Stop if you feel sharp pain.',
-    imageEmoji: '⏱️'
+    imageEmoji: '⏱️',
+    gifUrl: 'https://placehold.co/480x240/ede9fe/6d28d9?text=Shoulder+Pendulum+(GIF)',
+    steps: [
+      'Stand beside a table and rest your unaffected arm on it for support.',
+      'Lean forward slightly so your affected arm hangs freely below you.',
+      'Using gentle body movement (rocking from your legs), let the arm swing forward and back.',
+      'Progress to small circles in both clockwise and anti-clockwise directions.',
+      'Keep the arm relaxed — do not use your shoulder muscles to swing.',
+      'Keep the circles small, especially in the first week.',
+      'Rest for 30 seconds between sets.',
+    ]
   },
   {
     id: 'ex8',
@@ -89,7 +158,17 @@ export const exercises = [
     reps: 12,
     goal: 'Improves shoulder mobility and strengthens the rotator cuff',
     safetyNote: 'Keep your lower back and arms in contact with the wall throughout.',
-    imageEmoji: '🧱'
+    imageEmoji: '🧱',
+    gifUrl: 'https://placehold.co/480x240/ede9fe/6d28d9?text=Wall+Slides+(GIF)',
+    steps: [
+      'Stand with your back flat against a wall, feet about 15cm from the baseboard.',
+      'Place your arms in a "W" shape — elbows at shoulder height, pressed against the wall.',
+      'Keep your lower back, elbows, and hands in contact with the wall throughout.',
+      'Slowly slide your arms upward into a "Y" shape overhead.',
+      'Hold for 2 seconds at the top.',
+      'Slowly slide back down to the starting "W" position.',
+      'Repeat for the prescribed number of reps.',
+    ]
   },
   {
     id: 'ex9',
@@ -100,7 +179,17 @@ export const exercises = [
     reps: 10,
     goal: 'Builds functional leg strength and balance for everyday activities',
     safetyNote: 'Use a step no higher than 20cm to start. Hold a wall for balance if needed.',
-    imageEmoji: '🪜'
+    imageEmoji: '🪜',
+    gifUrl: 'https://placehold.co/480x240/dbeafe/1d4ed8?text=Step-Ups+(GIF)',
+    steps: [
+      'Stand in front of a low step (start at 10–15cm height).',
+      'Place your affected leg fully on the step.',
+      'Press through that heel to step up, bringing your other foot to rest on the step.',
+      'Stand tall at the top for 1 second.',
+      'Lower the non-affected leg back down to the floor first.',
+      'Follow with the affected leg to return to the start.',
+      'Repeat, always leading up with the affected leg.',
+    ]
   },
   {
     id: 'ex10',
@@ -111,7 +200,17 @@ export const exercises = [
     reps: 15,
     goal: 'Activates and re-educates the quadriceps, especially important post-surgery',
     safetyNote: 'Very gentle — suitable for early stages of recovery.',
-    imageEmoji: '💪'
+    imageEmoji: '💪',
+    gifUrl: 'https://placehold.co/480x240/dbeafe/1d4ed8?text=Quad+Sets+(GIF)',
+    steps: [
+      'Sit or lie with your leg fully straight on a firm surface.',
+      'Place a small rolled towel under your knee for comfort (optional).',
+      'Tighten your thigh muscle by pressing the back of your knee down into the surface.',
+      'Hold the contraction firmly for 5 seconds.',
+      'Relax the muscle completely for 2 seconds.',
+      'That is one rep — continue for the prescribed number.',
+      'Focus on feeling the muscle activate; quality matters more than speed.',
+    ]
   }
 ]
 
